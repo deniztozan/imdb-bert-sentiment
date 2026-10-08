@@ -22,3 +22,6 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Ignore one specific notebook
+imdb_model_sentiment_50000.ipynb

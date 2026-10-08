@@ -1,7 +1,21 @@
-# imdb-bert-sentiment
-Sentiment analysis on IMDB movie reviews using BERT embeddings and Logistic Regression.
+## Fine-Tuning Result
 
-# IMDB BERT Sentiment Analysis
+In the final experiment, `bert-base-uncased` was fine-tuned directly on the IMDB sentiment classification task.
+
+The dataset was split into training, validation, and test sets. Validation data was used during training to select the best model, while the test set was kept separate for the final evaluation.
+
+The best validation performance was reached around the second epoch. After that, validation loss started to increase while training loss continued to decrease, which indicated the beginning of overfitting.
+
+Final test results:
+
+- Accuracy: 91.5%
+- Precision: 90.0%
+- Recall: 92.8%
+- F1-score: 91.4%
+
+Compared with using BERT only as a feature extractor together with Logistic Regression, fine-tuning BERT directly for sentiment classification produced a clear improvement in performance.
+
+# IMDB BERT Sentiment Analysis 1st version 
 
 In this project, I worked on sentiment analysis using IMDB movie reviews.
 

@@ -25,3 +25,42 @@ Thumbs.db
 
 # Ignore one specific notebook
 imdb_model_sentiment_50000.ipynb
+
+
+# Dataset
+IMDB Dataset.csv
+
+# BERT / Hugging Face training outputs
+bert_imdb_output/
+checkpoint-*/
+
+# Saved models / embeddings
+*.npy
+*.pkl
+*.pt
+*.pth
+*.safetensors
+
+# Hugging Face / training logs
+runs/
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
